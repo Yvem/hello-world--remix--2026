@@ -1,3 +1,6 @@
+packages:
+  - 'my-remix-app--v3'
+
 autoInstallPeers: false
 catalogMode: prefer
 cleanupUnusedCatalogs: true
@@ -10,6 +13,49 @@ hoistPattern: []
 hoistWorkspacePackages: false
 ignoreScripts: true
 minimumReleaseAge: 10080
+minimumReleaseAgeExclude:
+  - '@remix-run/assert@0.2.1'
+  - '@remix-run/assets@0.4.1'
+  - '@remix-run/async-context-middleware@0.3.1'
+  - '@remix-run/auth-middleware@0.2.1'
+  - '@remix-run/auth@0.2.3'
+  - '@remix-run/cli@0.3.1'
+  - '@remix-run/compression-middleware@0.1.9'
+  - '@remix-run/cookie@0.5.3'
+  - '@remix-run/cop-middleware@0.1.4'
+  - '@remix-run/cors-middleware@0.1.4'
+  - '@remix-run/csrf-middleware@0.1.4'
+  - '@remix-run/data-table-mysql@0.4.0'
+  - '@remix-run/data-table-postgres@0.4.0'
+  - '@remix-run/data-table-sqlite@0.5.0'
+  - '@remix-run/data-table@0.3.0'
+  - '@remix-run/fetch-proxy@0.8.2'
+  - '@remix-run/fetch-router@0.19.1'
+  - '@remix-run/file-storage-s3@0.1.2'
+  - '@remix-run/file-storage@0.13.5'
+  - '@remix-run/form-data-middleware@0.3.1'
+  - '@remix-run/form-data-parser@0.17.2'
+  - '@remix-run/fs@0.4.4'
+  - '@remix-run/headers@0.21.0'
+  - '@remix-run/html-template@0.3.1'
+  - '@remix-run/lazy-file@5.0.4'
+  - '@remix-run/logger-middleware@0.3.1'
+  - '@remix-run/method-override-middleware@0.1.9'
+  - '@remix-run/multipart-parser@0.16.2'
+  - '@remix-run/node-fetch-server@0.13.3'
+  - '@remix-run/node-tsx@0.1.1'
+  - '@remix-run/render-middleware@0.1.1'
+  - '@remix-run/response@0.3.5'
+  - '@remix-run/route-pattern@0.21.1'
+  - '@remix-run/session-middleware@0.3.1'
+  - '@remix-run/session-storage-memcache@0.1.1'
+  - '@remix-run/session-storage-redis@0.1.1'
+  - '@remix-run/session@0.4.2'
+  - '@remix-run/static-middleware@0.4.10'
+  - '@remix-run/terminal@0.1.1'
+  - '@remix-run/test@0.4.1'
+  - '@remix-run/ui@0.2.0'
+  - remix@3.0.0-beta.2
 minimumReleaseAgeIgnoreMissingTime: true
 minimumReleaseAgeStrict: true
 publicHoistPattern: []
